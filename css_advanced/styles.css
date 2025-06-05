@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1103.41px;
+  margin: 0 auto;
+  /* background-color: lightblue; */
+  align-items: center;
+  padding-top: 1.6rem;
+}
+html {
+  font-size: 62.5%;
+}
+.logo {
+  width: 16.7rem;
+  height: 2.9rem;
+}
+.list-box {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  width: 234px;
+  height: 15px;
+  gap: 40px;
+}
+.nav-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+/* SECTION HOME */
+.section-home {
+  background-color: lightgray;
+  padding-top: 6rem;
+  margin-top: -5rem;
+  height: 100vh;
+  text-align: center;
+}
+.home-text {
+  color: #fff;
+  font-weight: 700;
+}
+.heading-primary {
+  font-size: 12rem;
+}
+.home-text p {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  word-spacing: 4.4rem;
+}
