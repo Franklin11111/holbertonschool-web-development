@@ -39,7 +39,8 @@ html {
 }
 /* SECTION HOME */
 .section-home {
-  background-color: lightgray;
+  background: url("../html_advanced/images/home-background.png");
+  background-size: cover;
   padding-top: 6rem;
   margin-top: -5rem;
   height: 100vh;
@@ -47,13 +48,61 @@ html {
 }
 .home-text {
   color: #fff;
-  font-weight: 700;
+  font-weight: bold;
+  margin-top: 16rem;
 }
 .heading-primary {
   font-size: 12rem;
+  letter-spacing: -1.5px;
+  line-height: 1;
 }
 .home-text p {
   font-size: 1.6rem;
   text-transform: uppercase;
   word-spacing: 4.4rem;
+  margin-bottom: 4rem;
+}
+.btn-register {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 1.2rem 1.6rem;
+  background-color: #c271ff;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 0 1.4rem rgba(0, 0, 0, 0.45);
+}
+.winners-box {
+  margin-top: 16rem;
+  color: #fff;
+}
+.winners-heading {
+  font-size: 3.2rem;
+  font-weight: 100;
+}
+.winners-heading span {
+  font-weight: 600;
+  color: #c271ff;
+}
+.winners-list {
+  margin-top: 8rem;
+  display: flex;
+  gap: 8rem;
+  justify-content: center;
+  list-style: none;
+}
+.winner-img {
+  border-radius: 50%;
+}
+.winner-name {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  letter-spacing: 0px;
+}
+.winners-list li {
+  max-width: 15rem;
+}
+.winners-list em {
+  font-size: 1.6rem;
 }
